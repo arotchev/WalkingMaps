@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-one">
+    <IconStyle>
+      <Icon>
+        <href>https://i.stack.imgur.com/LU782.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-two">
+    <IconStyle>
+      <Icon>
+        <href>http://www.cartagram.com/wp-content/uploads/2013/04/blog_custommarkers_2a.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Kudrinskaya raskudrinskaya</name>
+  <visibility>0</visibility>
+  <Placemark>
+    <name>метро Баррикадная 1</name>
+    <description>fsdfdsfds fsdfdsfds fdsfdsfdsfd</description>
+    <styleUrl>#placemark-one</styleUrl>
+    <Point><coordinates>37.581284,55.760782</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Griboyedov House</name>
+    <description>Novinskiy bulvar, 17, Moskva, Russia, 121099</description>
+    <styleUrl>#placemark-two</styleUrl>
+    <Point><coordinates>37.582905,55.755116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>метро Баррикадная</name>
+    <description>Баррикадная, Moskva, Russia, 123242</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.581284,55.760782</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Moscow Planetarium</name>
+    <TimeStamp><when>2017-03-22T15:45:15Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.583662,55.761448</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Anton Chekhov House-museum</name>
+    <TimeStamp><when>2017-03-22T15:45:29Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.58607,55.760316</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Вдовий дом</name>
+    <TimeStamp><when>2017-03-22T15:45:46Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.583067,55.759584</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>П.И. Чайковский и Москва</name>
+    <TimeStamp><when>2017-03-22T15:46:20Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.585316,55.758146</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chaliapin House Museum</name>
+    <TimeStamp><when>2017-03-22T15:47:39Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.58331,55.756694</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Narkomfin Building</name>
+    <TimeStamp><when>2017-03-22T15:48:00Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.581194,55.75708</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name></name>
+<Style><LineStyle><color>800000DD</color>
+<width>5</width>
+</LineStyle></Style>
+    <LineString><coordinates>37.581286,55.760787 37.581308,55.760783 37.581229,55.760631 37.581497,55.760586 37.581239,55.760103 37.582076,55.759625 37.582264,55.759573 37.583144,55.75942 37.584044,55.759263 37.58413,55.759441 37.584196,55.75946 37.584428,55.759865 37.584782,55.759792 37.585614,55.761032 37.584081,55.761433 37.583959,55.761484 37.583943,55.761477 37.583959,55.761484 37.584081,55.761433 37.585614,55.761032 37.584998,55.760128 37.584926,55.760145 37.584814,55.759991 37.584795,55.759721 37.585408,55.759594 37.585555,55.7598 37.5856,55.759791 37.585614,55.759884 37.585829,55.760203 37.585614,55.759884 37.5856,55.759791 37.58545,55.759575 37.585468,55.759551 37.585396,55.759424 37.585339,55.759405 37.585034,55.758961 37.585029,55.758928 37.585062,55.758903 37.585735,55.758745 37.585675,55.758658 37.585682,55.758619 37.585644,55.758615 37.585551,55.758566 37.585304,55.758236 37.585202,55.7581 37.585207,55.75807 37.585291,55.75802 37.585208,55.757945 37.585196,55.757907 37.585135,55.757901 37.585023,55.757851 37.584456,55.755147 37.584406,55.75515 37.584386,55.755052 37.583285,55.755126 37.583261,55.755014 37.583198,55.755018 37.583202,55.755149 37.583179,55.755171 37.583182,55.755213 37.582904,55.755213 37.583182,55.755213 37.583699,55.757273 37.583707,55.757306 37.583484,55.757306 37.582858,55.757281 37.582846,55.757205 37.582834,55.757126 37.581733,55.757303 37.58178,55.757375 37.581827,55.757446 37.581684,55.757476 37.581623,55.757513 37.581499,55.757423 37.581363,55.757134 37.581499,55.757423 37.581623,55.757513 37.581195,55.757765 37.580552,55.757912 37.580703,55.757959 37.581377,55.758323 37.581462,55.75836 37.581452,55.758468 37.581569,55.758649 37.581396,55.758681 37.581799,55.759372 37.581984,55.759338 37.582047,55.759445 37.58153,55.759739 37.58101,55.759845 37.581085,55.759966 37.58095,55.760041 37.581146,55.760156 37.581239,55.760103 37.581497,55.760586 37.581229,55.760631 37.581308,55.760783 37.581286,55.760787     </coordinates></LineString>
+  </Placemark>
+</Document>
+</kml>

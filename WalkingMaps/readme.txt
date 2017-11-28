@@ -1,0 +1,1 @@
+this project is to explore ASP.NET Core with Angular 2(Typescript) development environment

@@ -1,0 +1,170 @@
+﻿//to avoid using  DI
+ _userManager = (UserManager<User>)serviceProvider.GetService(typeof(UserManager<User>));
+
+  //Create roles if they do not exist
+
+            //if (!_roleManager.RoleExistsAsync(_roleName1).Result)
+            //{
+            //    var _role1 = new IdentityRole(_roleName1);
+            //    _roleManager.CreateAsync(_role1);
+            //}
+
+			   //var result = await _userManager.AddToRolesAsync(user, roles);
+
+			   //    Task<IdentityResult> result = _userManager.CreateAsync(_user1, "Pa55w0rd#");
+
+			    //await userStore.CreateAsync(user);
+
+				// await _context.SaveChangesAsync();
+				 //await roleStore.CreateAsync(new IdentityRole(role));
+
+				 //calling async method
+				 DataInitializer.SeedRoles(app.ApplicationServices).Wait();
+				 public static class DataInitializer
+{
+    public static async Task SeedRoles(IServiceProvider serviceProvider)
+    {
+        var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+        foreach (var role in Enum.GetNames(typeof(Roles)))
+        {
+            if (!await roleManager.RoleExistsAsync(role))
+            {
+                await roleManager.CreateAsync(new IdentityRole(role));
+            }
+        }
+    }
+}
+
+   var _walk1 = _context.Walks.Where(w => w.Name.Equals("Nice Walk 1")).Single();
+
+
+    //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("hello!");
+            //});
+
+			  //_context.Photos.Add(
+                    //    new Photo()
+                    //    {
+                    //        Title = _fileName,
+                    //        DateUploaded = DateTime.Now,
+                    //        Uri = _fileName,
+                    //        Sight = _sight,
+                    //        UserId = _sight.UserId
+                    //    }
+                    //);
+
+					 _context.Routes.Add(
+                    new Route()
+                    {
+                        Title = _fileName2,
+                        DateUploaded = DateTime.Now,
+                        Uri = _fileName2,
+                        Walk = _walk2,
+                        UserId = _walk2.UserId
+                    }
+                 );
+
+
+				   //string _fileName = Path.GetFileName(_files[0]);
+                //Walk _walk1 = _walks.ElementAt(0);
+                //_walk1.MapUri = _fileName;
+
+                //string _fileName2 = Path.GetFileName(_files[1]);
+                //Walk _walk2 = _walks.ElementAt(1);
+                //_walk2.MapUri = _fileName2;
+
+
+				//modelBuilder.Entity<Walk>().HasMany(w => w.WalkSights).WithOne(s => s.Walk);
+				         //modelBuilder.Entity<Sight>().Property(s => s.WalkId).IsRequired();
+
+
+						  IEnumerable<SightViewModel> _sightsVM = Mapper.Map<IEnumerable<Sight>, IEnumerable<SightViewModel>>(_sights);
+
+
+						    public IEnumerable<WalkSight> GetWalkSights(Walk walk)
+        {
+
+            List<WalkSight> _walksights = new List<WalkSight>();
+
+            if (walk != null)
+            {
+
+                foreach (var _walkSight in walk.WalkSights)
+                {
+                    _walkSight.Sight = _sightRepository.GetSingle(_walkSight.SightId);
+                    _walksights.Add(_walkSight);
+
+                }
+                    
+            }
+
+            return _walksights;
+
+        }
+
+		 var _sight1 = _context.Sights.Add(
+                    new Sight
+                    {
+
+                        Name = "Sight 1",
+                        Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        CreatedDate = DateTime.Now,
+                        NavLink = "sdsadsads",
+                        Address = "fdsfdsfdsf",
+                        FormattedAddress = "sdsadsadasd",
+                        Latitude = 37.583662,
+                        Longitude = 55.761448,
+                        UserId = _walks[0].UserId
+
+                    }).Entity;
+               
+
+
+
+                var _sight2 = _context.Sights.Add(
+                    new Sight
+                    {
+
+                        Name = "Sight 2",
+                        Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        CreatedDate = DateTime.Now,
+                        NavLink = "sdsadsads",
+                        Address = "fdsfdsfdsf",
+                        FormattedAddress = "sdsadsadasd",
+                        Latitude = 37.583662,
+                        Longitude = 55.761448,
+                        UserId = _walks[0].UserId
+
+                    }).Entity;
+
+                var _sight3 = _context.Sights.Add(
+                   new Sight
+                   {
+
+                       Name = "Sight 3",
+                       Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                       CreatedDate = DateTime.Now,
+                       NavLink = "sdsadsads",
+                       Address = "fdsfdsfdsf",
+                       FormattedAddress = "sdsadsadasd",
+                       Latitude = 37.583662,
+                       Longitude = 55.761448,
+                       UserId = _walks[0].UserId
+
+                   }).Entity;
+
+                var _sight4 = _context.Sights.Add(
+                   new Sight
+                   {
+                       Name = "Sight 4",
+                       Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                       CreatedDate = DateTime.Now,
+                       NavLink = "sdsadsads",
+                       Address = "fdsfdsfdsf",
+                       FormattedAddress = "sdsadsadasd",
+                       Latitude = 37.583662,
+                       Longitude = 55.761448,
+                       UserId = _walks[1].UserId
+
+                   }).Entity;

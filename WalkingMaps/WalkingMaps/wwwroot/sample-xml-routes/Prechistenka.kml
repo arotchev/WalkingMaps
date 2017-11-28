@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Prechistenka</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>метро Кропоткинская</name>
+    <description>Kropotkinskaya, Moskva, Russia, 119019</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.601529,55.744998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Yermolov House</name>
+    <description>ul. Prechistenka, 20, Moskva, Russia, 119034</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.595262,55.7425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>метро Кропоткинская</name>
+    <description>Kropotkinskaya, Moskva, Russia, 119019</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.601529,55.744998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Friedrich Engels</name>
+    <TimeStamp><when>2017-03-24T06:38:19Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.601238,55.744168</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Белые палаты на улице Пречистенке</name>
+    <TimeStamp><when>2017-03-24T06:40:56Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.599875,55.743886</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pushkin State Museum</name>
+    <TimeStamp><when>2017-03-24T06:41:37Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.597282,55.743769</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>House of Sientists</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.595989,55.743264</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>State Tolstoy Museum</name>
+    <TimeStamp><when>2017-03-24T06:43:22Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.596968,55.742812</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Russian Academy of Arts</name>
+    <TimeStamp><when>2017-03-24T06:45:03Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.592894,55.741032</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name></name>
+<Style><LineStyle><color>800000DD</color>
+<width>5</width>
+</LineStyle></Style>
+    <LineString><coordinates>37.601552,55.744988 37.601532,55.744973 37.601616,55.744953 37.601619,55.744914 37.601574,55.74489 37.601614,55.744771 37.601359,55.74466 37.60155,55.744404 37.601278,55.744348 37.601253,55.744231 37.601218,55.74423 37.601187,55.744217 37.601138,55.744195 37.601163,55.744123 37.601111,55.744092 37.601029,55.744152 37.600222,55.744097 37.600201,55.744106 37.600131,55.744087 37.597763,55.743238 37.597728,55.74321 37.597693,55.74321 37.597584,55.743155 37.597546,55.743153 37.597,55.742926 37.596763,55.742824 37.596539,55.742729 37.596515,55.742683 37.596386,55.742611 37.596234,55.742596 37.595438,55.742245 37.595416,55.742222 37.595273,55.742163 37.595191,55.742145 37.594283,55.741732 37.59427,55.741701 37.594174,55.741655 37.594091,55.741648 37.592993,55.741152 37.592696,55.741024 37.594063,55.741636 37.593897,55.741751 37.594081,55.741843 37.594083,55.741858 37.594128,55.741865 37.595029,55.742257 37.595383,55.742413 37.59608,55.742719 37.596095,55.742745 37.596323,55.742849 37.596409,55.74286 37.596829,55.743037 37.597481,55.743317 37.597476,55.743348 37.596883,55.743759 37.597484,55.743332 37.597643,55.743397 37.597679,55.743395 37.597918,55.743478 37.598731,55.743761 37.598744,55.743783 37.598904,55.743845 37.600041,55.74422 37.601358,55.744582 37.601402,55.744613 37.601359,55.74466 37.601614,55.744771 37.601574,55.74489 37.601619,55.744914 37.601616,55.744953 37.601532,55.744973 37.601552,55.744988     </coordinates></LineString>
+  </Placemark>
+</Document>
+</kml>

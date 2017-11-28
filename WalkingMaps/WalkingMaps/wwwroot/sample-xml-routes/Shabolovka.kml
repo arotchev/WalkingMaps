@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Shabolovka</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>START</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.62253,55.70972</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>FINISH</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.58766,55.70865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Donskoy Monastery</name>
+    <TimeStamp><when>2017-03-21T15:51:22Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.601643,55.714338</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>New Donskoy Cemetery</name>
+    <TimeStamp><when>2017-03-21T15:51:29Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.602888,55.71217</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Фрагмент металлического каркаса Дома-Коммуны</name>
+    <TimeStamp><when>2017-03-21T15:51:39Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.596745,55.710698</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Храм во имя Тихвинской иконы Божией Матери Тихвинской старообрядческой общины</name>
+    <TimeStamp><when>2017-03-21T15:52:02Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.61408,55.712033</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Шуховская башня</name>
+    <TimeStamp><when>2017-03-21T15:52:14Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.611597,55.717377</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Danilovskiy market</name>
+    <TimeStamp><when>2017-03-21T15:52:31Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.620614,55.712162</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Building</name>
+    <TimeStamp><when>2017-03-21T15:52:42Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.620786,55.709145</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Fly-Over Tour</name>
+<Style><LineStyle><color>CC14DCF3</color>
+<width>5</width>
+</LineStyle></Style>
+    <LineString><coordinates>37.62253,55.70972 37.62255,55.70972 37.62259,55.7097 37.62262,55.70963 37.62265,55.70955 37.62267,55.70952 37.6227,55.70949 37.62274,55.70947 37.62278,55.70946 37.62281,55.70944 37.62287,55.70944 37.62291,55.70976 37.62284,55.70995 37.62279,55.71019 37.62278,55.71048 37.62278,55.71083 37.62286,55.71122 37.62286,55.71137 37.62256,55.71136 37.62261,55.71145 37.62265,55.71153 37.62217,55.71158 37.62181,55.71161 37.6217,55.71162 37.62105,55.71163 37.62029,55.71165 37.61947,55.71166 37.61853,55.71169 37.61769,55.71173 37.61753,55.71174 37.61557,55.7118 37.61546,55.7118 37.61457,55.71184 37.61357,55.71187 37.61361,55.71245 37.61362,55.71257 37.61362,55.71288 37.61363,55.71298 37.61362,55.71314 37.61362,55.71392 37.61363,55.71414 37.61362,55.71462 37.6136,55.71511 37.6136,55.71531 37.61359,55.71559 37.6136,55.71569 37.61361,55.71592 37.61362,55.71668 37.61363,55.71708 37.61363,55.71761 37.61365,55.71784 37.61331,55.71784 37.61118,55.71787 37.61064,55.71795 37.61031,55.718 37.60997,55.71807 37.60988,55.7181 37.60986,55.7181 37.60984,55.71812 37.60983,55.71813 37.6098,55.71815 37.60978,55.71817 37.60977,55.71818 37.60977,55.7182 37.60977,55.71823 37.60976,55.71826 37.60974,55.71832 37.60973,55.71833 37.60972,55.71834 37.60969,55.71835 37.60967,55.71836 37.60964,55.71837 37.60931,55.7184 37.609,55.71844 37.60885,55.71846 37.60883,55.7184 37.60861,55.71783 37.60847,55.7175 37.60844,55.71742 37.60842,55.71736 37.6084,55.71732 37.60838,55.71727 37.60838,55.71725 37.60837,55.71723 37.6082,55.7168 37.6082,55.71679 37.60814,55.71661 37.60794,55.71609 37.60774,55.71561 37.6065,55.7159 37.60602,55.716 37.60577,55.71606 37.6054,55.71614 37.60505,55.71622 37.60488,55.71605 37.60482,55.71608 37.60469,55.71611 37.60453,55.71615 37.60438,55.71618 37.60414,55.7162 37.60412,55.71619 37.60404,55.71617 37.60382,55.71614 37.60337,55.71605 37.60294,55.71598 37.6012,55.71574 37.59997,55.71561 37.59969,55.71556 37.59953,55.71554 37.59937,55.71551 37.59965,55.71488 37.59971,55.71469 37.59973,55.71462 37.59975,55.71456 37.59975,55.71453 37.59971,55.71442 37.59969,55.71435 37.59969,55.71431 37.59969,55.71427 37.59971,55.71423 37.59973,55.7142 37.59977,55.71417 37.5998,55.71413 37.59987,55.71405 37.59991,55.71398 37.60018,55.71332 37.60029,55.71309 37.60038,55.71288 37.60042,55.71278 37.60058,55.71245 37.60077,55.71197 37.60063,55.71196 37.6006,55.71197 37.60059,55.71198 37.60051,55.71203 37.60039,55.7121 37.60028,55.71218 37.60008,55.71226 37.59997,55.71231 37.59986,55.71235 37.59984,55.71235 37.59934,55.7123 37.5991,55.71227 37.59891,55.71225 37.59882,55.71225 37.59879,55.71226 37.59878,55.71226 37.59877,55.71228 37.59877,55.7123 37.59866,55.71229 37.59859,55.71143 37.59856,55.71096 37.59786,55.71093 37.59746,55.71094 37.59744,55.71094 37.59743,55.71095 37.59745,55.71117 37.59743,55.71095 37.59744,55.71094 37.59746,55.71094 37.59786,55.71093 37.59856,55.71096 37.59852,55.71038 37.59852,55.71034 37.59852,55.71028 37.59851,55.71023 37.59748,55.71005 37.59736,55.71003 37.59701,55.71001 37.59629,55.70997 37.59429,55.70991 37.59389,55.7099 37.59384,55.7099 37.59379,55.70989 37.59375,55.70988 37.59371,55.70988 37.59366,55.70987 37.59363,55.70986 37.59352,55.70982 37.59329,55.70996 37.5894,55.70997 37.58921,55.70995 37.5892,55.70995 37.5892,55.70994 37.58919,55.70994 37.58918,55.70993 37.58919,55.70976 37.58919,55.70975 37.58918,55.70974 37.58917,55.70974 37.58915,55.70973 37.58904,55.70973 37.58829,55.70971 37.58798,55.70969 37.58807,55.70931 37.58807,55.70928 37.58807,55.70926 37.58805,55.70923 37.58799,55.70912 37.58769,55.70869 37.58766,55.70865     </coordinates></LineString>
+  </Placemark>
+</Document>
+</kml>
